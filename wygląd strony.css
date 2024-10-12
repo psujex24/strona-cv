@@ -1,0 +1,35 @@
+body {
+    background-color: #AB00FE;
+}
+
+.header {
+    margin-left: 220px;
+    margin-top: 65px;
+}
+
+.bloczek {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 1500px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    min-height: 1000px;
+    border-radius: 25px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dwie kolumny */
+    gap: 20px; /* Odstęp między elementami */
+}
+
+.content {
+    /* Usuń float i dodaj inne style w razie potrzeby */
+}
+
+.specjalka {
+    margin-bottom: 20px;
+}
+
+.prawa {
+    /* Usuń float i dodaj inne style w razie potrzeby */
+}
