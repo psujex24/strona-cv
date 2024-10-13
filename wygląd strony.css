@@ -3,17 +3,24 @@ body {
 }
 
 .header {
-    margin-left: 220px;
+    margin-left: 10%;
     margin-top: 65px;
+    background-color: rgba(0, 0, 0, 1); /* Kolor tła */
+    border: none; /* Brak obramowania */
+    color: white; /* Kolor tekstu */
+    padding: 15px 32px; /* Wewnętrzne odstępy (padding) */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    display: inline-block; /* Ustawia przycisk jako element blokowy */
+    font-size: 16px; /* Wielkość czcionki */
+    cursor: pointer; /* Ikona kursora przy najechaniu */
+    border-radius: 12px; /* Zaokrąglone rogi */
+    transition: background-color 0.3s ease;
 }
 
 .bloczek {
     background-color: rgba(0, 0, 0, 0.5);
-    max-width: 1500px;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    max-width: 75%; /* Szerokość zależna od ekranu */
+    margin: 15px auto 50px auto; /* Wyśrodkuj bloczek, automatyczne marginesy */
     min-height: 1000px;
     border-radius: 25px;
     padding: 50px;
@@ -32,4 +39,40 @@ body {
 
 .prawa {
     /* Usuń float i dodaj inne style w razie potrzeby */
+}
+.przycisk1 {
+    background-color: rgba(0, 0, 0, 1); /* Kolor tła */
+    border: none; /* Brak obramowania */
+    color: white; /* Kolor tekstu */
+    padding: 15px 32px; /* Wewnętrzne odstępy (padding) */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    display: inline-block; /* Ustawia przycisk jako element blokowy */
+    font-size: 16px; /* Wielkość czcionki */
+    margin: 4px 32px; /* Odstępy między przyciskami */
+    cursor: pointer; /* Ikona kursora przy najechaniu */
+    border-radius: 12px; /* Zaokrąglone rogi */
+    transition: background-color 0.3s ease; /* Animacja przy zmianie koloru */
+    
+}
+.przyciskiGora {
+    display: flex; /* Ustawienie flexbox na kontenerze */
+    justify-content: flex-end; /* Przyciąga elementy do prawej strony */
+    padding: 10px;
+}
+.przyciskiDol {
+    display: flex;
+    flex-direction: column; /* Ustawia elementy w pionie (zdjęcie nad przyciskiem) */
+    align-items: flex-end; /* Przyciąga elementy do prawej strony */
+    max-width: 650px;
+    margin: 0 auto; /* Centruje całość w poziomie */
+}
+
+.obrazek {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    /* float: right; - Usuń to, bo zakłóca układ */
+    align-self: flex-end; /* Ustawia obrazek po prawej stronie */
 }
