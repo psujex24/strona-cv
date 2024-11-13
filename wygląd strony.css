@@ -17,7 +17,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.bloczek {
+.box {
     background-color: rgba(0, 0, 0, 0.5);
     max-width: 75%; /* Szerokość zależna od ekranu */
     margin: 15px auto 50px auto; /* Wyśrodkuj bloczek, automatyczne marginesy */
@@ -33,14 +33,14 @@ body {
     /* Usuń float i dodaj inne style w razie potrzeby */
 }
 
-.specjalka {
+.spec {
     margin-bottom: 20px;
 }
 
-.prawa {
+.right {
     /* Usuń float i dodaj inne style w razie potrzeby */
 }
-.przycisk1 {
+.button1 {
     background-color: rgba(0, 0, 0, 1); /* Kolor tła */
     border: none; /* Brak obramowania */
     color: white; /* Kolor tekstu */
@@ -54,12 +54,12 @@ body {
     transition: background-color 0.3s ease; /* Animacja przy zmianie koloru */
     
 }
-.przyciskiGora {
+.buttonUp {
     display: flex; /* Ustawienie flexbox na kontenerze */
     justify-content: flex-end; /* Przyciąga elementy do prawej strony */
     padding: 10px;
 }
-.przyciskiDol {
+.buttonDown {
     display: flex;
     flex-direction: column; /* Ustawia elementy w pionie (zdjęcie nad przyciskiem) */
     align-items: flex-end; /* Przyciąga elementy do prawej strony */
@@ -67,7 +67,7 @@ body {
     margin: 0 auto; /* Centruje całość w poziomie */
 }
 
-.obrazek {
+.pic {
     width: auto;
     height: auto;
     margin-bottom: 20px;
